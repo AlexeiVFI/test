@@ -1,0 +1,2779 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="" lang="en"> <!--<![endif]-->
+<head>
+	<!-- METAS -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta name="author" content="yelvy">
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+
+	<!-- Misc. -->
+	<meta name="facebook-domain-verification" content="cudf5xuruhs0gv1af9na720uu5lkit" />
+
+	<!-- ICONS -->
+	<link rel="shortcut icon" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#0f1010">
+	<meta name="msapplication-TileImage" content="https://yelvy.com/app/themes/yelvy/assets/icons/favicon-144.png">
+	<meta name="msapplication-config" content="https://yelvy.com/app/themes/yelvy/assets/icons/browserconfig.xml">
+
+	<meta name="theme-color" content="#0f1010">
+	<meta name="msapplication-navbutton-color" content="#0f1010">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#0f1010">
+
+	<style media="all">
+		/*! normalize.css v3.0.2 | MIT License | git.io/normalize */a,body{color:#161616}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;background:#f9f6f5}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;text-decoration:none}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}mark{background:#ff0;color:#000}sub,sup{line-height:0;position:relative}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}#barba-wrapper,.scroller-wrapper{height:100%;position:absolute;width:100%}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}table{border-collapse:collapse;border-spacing:0}a,abbr,acronym,address,applet,big,blockquote,body,button,caption,cite,code,dd,del,dfn,div,dl,dt,fieldset,figure,font,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{margin:0;padding:0;border:0;outline:0;font-weight:400;font-style:normal;font-size:100%;font-family:inherit;vertical-align:baseline;list-style-type:none}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#barba-wrapper{top:0;left:0}.scroll-content{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);position:absolute;width:100%;min-height:100%}.cursor-wait{cursor:wait!important}.scrollbar-track-y{position:fixed;width:7px;height:100vh;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;top:0;right:0}.scrollbar-thumb-y{background:#161616}.page-color-dark .scrollbar-thumb-y{background:#f9f6f5}.url-template .scrollbar-thumb-y{background:#5e7b7e}::-moz-selection{background:rgba(22,22,22,.99);color:#f9f6f5;text-shadow:none}::selection{background:rgba(22,22,22,.99);color:#f9f6f5;text-shadow:none}.page-color-dark ::-moz-selection,.snip-layout ::-moz-selection{background:rgba(249,246,245,.99);color:#161616;text-shadow:none}.page-color-dark ::selection,.snip-layout ::selection{background:rgba(249,246,245,.99);color:#161616;text-shadow:none}.preloader__wrapper{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#161616;z-index:1000;overflow:hidden}.preloader__logo{position:absolute;top:50%;left:50%;z-index:2}.cursor-wait-preloader{cursor:wait}.preloader-logo__container{font-size:0}@media (min-width:980px){.preloader-logo__container{top:252px;top:14.05vw;width:19.856vw;left:29.95%}}@media (max-width:979px){.js-scroll{-webkit-transform:none!important;-moz-transform:none!important;-ms-transform:none!important;-o-transform:none!important;transform:none!important}.preloader-logo__container{max-width:245px;top:212px}}@media (min-width:700px) and (max-width:979px){.preloader-logo__container{left:36px;max-width:100%;width:308px;top:212px}}@media (max-width:699px){.preloader-logo__container{left:28px;top:208px}}.preloader-logo__container svg{width:100%;fill:#161616;position:relative;z-index:3}.preloader-logo__fill{background-color:#1b1b1b;position:absolute;width:100%;height:-webkit-calc(100% - 3px);height:-moz-calc(100% - 3px);height:calc(100% - 3px);top:0;left:0;z-index:1}.preloader-logo__fill-progress{background-color:#f9f6f5;position:absolute;width:-webkit-calc(100% - 6px);width:-moz-calc(100% - 6px);width:calc(100% - 6px);height:-webkit-calc(100% - 5px);height:-moz-calc(100% - 5px);height:calc(100% - 5px);top:2px;left:3px;z-index:2;-webkit-transform-origin:left center;-moz-transform-origin:left center;-ms-transform-origin:left center;-o-transform-origin:left center;transform-origin:left center;-webkit-transform:scale3d(0,1,1);-moz-transform:scale3d(0,1,1);transform:scale3d(0,1,1)}	</style>
+
+	<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');  
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1979242719025349&ev=PageView&noscript=1"
+/></noscript>
+
+	<link rel="stylesheet" id="main-css" href="https://yelvy.com/app/themes/yelvy/assets/bin/min.css" media="none" onload="if(media!='all')media='all'">
+
+	
+<!-- This site is optimized with the Yoast SEO plugin v9.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>products &ndash; yelvy™</title>
+<meta name="description" content="shop and see all garments through a varied selection of coats, t-shirts, sweatshirts, accessories and headwear. shipping worldwide"/>
+<link rel="canonical" href="https://yelvy.com/products/" />
+<link rel="next" href="https://yelvy.com/products/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="products &ndash; yelvy™" />
+<meta property="og:url" content="https://yelvy.com/products/" />
+<meta property="og:site_name" content="yelvy™" />
+<meta property="og:image" content="https://yelvy.com/app/uploads/2017/12/og-img-compressor.png" />
+<meta property="og:image:secure_url" content="https://yelvy.com/app/uploads/2017/12/og-img-compressor.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="shop and see all garments through a varied selection of coats, t-shirts, sweatshirts, accessories and headwear. shipping worldwide" />
+<meta name="twitter:title" content="products &ndash; yelvy™" />
+<meta name="twitter:site" content="@yelvyyy" />
+<meta name="twitter:image" content="https://yelvy.com/app/uploads/2017/12/og-img-compressor.png" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="yelvy™ &raquo; products Feed" href="https://yelvy.com/products/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://yelvy.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://yelvy.com/wp-json/" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105600473-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());   
+
+      gtag('config', 'UA-105600473-1');   
+    </script>
+</head>
+
+<body data-theme-url="https://yelvy.com/app/themes/yelvy" class="has-promo-open cursor-wait-preloader" data-currency="usd">
+
+	<div class="preloader__wrapper">
+    <div class="preloader__logo preloader-logo__container">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 501 191" style="enable-background:new 0 0 501 191;" xml:space="preserve">
+<g>
+	<path d="M160.2,61.5c-3.8,0-7,0.5-9.6,1.6c-2.7,1.1-4.9,2.7-6.7,4.8s-3.2,4.8-4.3,7.9c-1.1,3.1-1.9,6.7-2.4,10.8h44.4
+		c0-8.2-1.7-14.4-5.2-18.7C173,63.6,167.5,61.5,160.2,61.5z"/>
+	<path d="M0,0v191h501V0H0z M63.3,153.5c-2.2,5.4-4.4,10-6.7,13.8c-2.3,3.8-4.8,6.9-7.6,9.3c-2.8,2.4-6,4.2-9.5,5.3
+		c-3.5,1.1-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1l4.6-17.2c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7
+		c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L12.6,47.5H34l25.3,67.8L85,47.5h20.8
+		L63.3,153.5z M201.6,101.5h-64.7c0.1,4.9,0.6,9.2,1.5,13c1,3.8,2.5,6.9,4.6,9.5c2.1,2.5,4.7,4.5,8,5.8c3.3,1.3,7.3,2,12.2,2
+		c4.5,0,8.5-0.8,12-2.3s6.7-4.1,9.6-7.8l15.5,10.5c-1.9,2.8-4,5.3-6.3,7.4c-2.3,2.1-5,3.9-8.1,5.4c-3.1,1.4-6.6,2.5-10.5,3.3
+		c-3.9,0.8-8.4,1.1-13.4,1.1c-15.7,0-27.3-4.3-34.8-13S116,114.9,116,98c0-7.9,0.8-15.2,2.4-21.6c1.6-6.5,4.2-12,7.7-16.7
+		c3.5-4.6,8.2-8.2,13.9-10.8c5.7-2.5,12.7-3.8,20.9-3.8c7.3,0,13.6,1.1,18.7,3.3c5.2,2.2,9.4,5.3,12.6,9.3c3.3,4,5.6,8.8,7.1,14.5
+		c1.5,5.6,2.3,11.9,2.3,18.7V101.5z M244.3,146.4H224V6h20.3V146.4z M317.2,146.4H298l-34.8-98.9h21l23.9,71.5l23.6-71.5h20.6
+		L317.2,146.4z M414.1,153.5c-2.2,5.4-4.4,10-6.7,13.8c-2.3,3.8-4.8,6.9-7.6,9.3c-2.8,2.4-6,4.2-9.5,5.3c-3.5,1.1-7.6,1.7-12.2,1.7
+		c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1l4.7-17.2c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1
+		c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1l-35.9-92.9h21.4l25.3,67.8l25.7-67.8h20.8L414.1,153.5z
+		 M481.6,50.4h-3.3v8.9H476v-8.9h-3.4v-2.1h9V50.4z M494,59.3h-2.2v-7.4l-2.6,4.6h-1.3l-2.6-4.6v7.4h-2.2v-11h2.6l2.9,5.2l2.9-5.2
+		h2.5V59.3z"/>
+</g>
+</svg>
+        <div class="preloader-logo__fill-progress" id="preloader-progress"></div>
+        <div class="preloader-logo__fill" id="preloader-bg"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+window.preloader = {
+	init: function() {
+		this.progressBar = document.getElementById('preloader-progress')
+		this.progressBg = document.getElementById('preloader-bg')
+
+		var BG_DELAY = 100;
+		var PROGRESS_DELAY = 400
+		var TOTAL_DELAY = BG_DELAY + PROGRESS_DELAY
+
+		this.start = Date.now() + TOTAL_DELAY
+
+		this.speed = 0.1
+		this.raf = null
+		this.value = 0
+
+		var scope = this
+
+		setTimeout(function () {
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					scope.progressBg.classList.remove('preloader-logo__bg--hidden');
+				})
+			})
+
+			setTimeout(function () {
+				scope.launch()
+			}, PROGRESS_DELAY);
+		}, BG_DELAY);
+
+	},
+
+	launch: function() {
+		this.step(0.5)
+
+		var scope = this
+		this.stepTimeout = setTimeout(function() {
+			scope.speed = 0.01
+			scope.step(0.9)
+		}, 1000)
+	},
+
+	updateProgressBar: function() {
+		this.progressBar.style.transform = 'scale3d('+this.value+', 1, 1)'
+	},
+
+	step: function(target) {
+		var gap = target - this.value,
+		 	oldValue = this.value,
+		 	localValue = 0,
+			tick = 0
+
+		cancelAnimationFrame(this.raf)
+
+		var scope = this
+		function update() {
+			localValue = (1 - 1/(1+tick*scope.speed)) * gap
+			scope.value = oldValue + localValue
+			scope.updateProgressBar()
+
+			tick++
+			scope.raf = requestAnimationFrame(update)
+		}
+		update()
+	},
+
+	stop: function() {
+		clearTimeout(this.stepTimeout)
+		cancelAnimationFrame(this.raf)
+	}
+}
+
+window.preloader.init()
+</script>
+
+		<div class="promo">
+			<div class="promo__list">
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+									<div class="promo__item">
+				montreal orders : use code "pickup"			</div>
+					</div>
+		<button class="promo__button js-close-promo">
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+	
+    <header class="site-header">
+        <div class="grid__wrapper site-header__bar">
+            <div class="grid__container grid__container__main">
+                <div class="grid__item grid__item__left">
+					<div class="hide-mobile">
+						<nav class="nav-tools">
+    <ul class="nav-tools__list">
+        <li class="nav-tools__item">
+            currency
+        </li>
+        <li class="nav-tools__item">
+            <select class="currency-select js-currency-toggle">
+                <option value="cad" >cad</option>
+                <option value="usd" selected>usd</option>
+                <option value="eur" >eur</option>
+            </select>
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="7.7px" height="4.3px" viewBox="0 0 7.7 4.3" enable-background="new 0 0 7.7 4.3" xml:space="preserve">
+<path fill="#999999" d="M7.1,0.1C6.7,0.5,3.9,3.2,3.9,3.2S1,0.5,0.6,0.1S0,0.7,0,0.7l3.9,3.6l3.8-3.6C7.7,0.7,7.5-0.3,7.1,0.1z"/>
+</svg>
+        </li>
+    </ul>
+</nav>
+					</div>
+                </div>
+                <div class="grid__item grid__item__right">
+
+                    <div class="site-menu site-menu__container">
+                        <div class="site-menu__icon">
+							<div class="site-menu__icon__burger">
+								<span></span>
+	                            <span></span>
+	                            <span></span>
+							</div>
+							<div class="site-menu__icon__close">
+								<span></span>
+	                            <span></span>
+							</div>
+                        </div>
+                        <div class="site-menu__caption">
+                            <span class="site-menu__caption__open">menu</span>
+                            <span class="site-menu__caption__close">close</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="button-cart snipcart-checkout button-cart__fixed js-cart js-snip-btn">
+            <svg class="button-cart__arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="-348.2 542.4 106.3 127.2" xml:space="preserve">
+	<polygon points="-241.9,616.4 -295,669.6 -348.2,616.4 -348.2,581.4 -307.8,621.8 -307.7,542.4 -282,542.4 -282,621.5 -241.8,581.3
+	"/>
+</svg>
+
+            <span class="button-cart__wrap snipcart-summary">
+                <span class="button-cart__title hide-mobile">cart</span>
+                <span class="button-cart__emoticon hide-mobile">
+                    <svg class="emoji__smile" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<g id="XMLID_9_">
+		<path id="XMLID_10_" class="st0" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4c-3.7,3.7-8.2,5.5-13.4,5.5c-5.2,0-9.7-1.8-13.4-5.5
+			S0,24.2,0,19c0-5.2,1.9-9.7,5.6-13.4C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19
+			c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7c-4.5,0-8.3,1.6-11.5,4.7c-3.2,3.2-4.7,7-4.7,11.5c0,4.5,1.6,8.3,4.7,11.4
+			c3.2,3.2,7,4.7,11.5,4.7c4.5,0,8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19z M14.1,15c0,0.7-0.2,1.2-0.7,1.7
+			c-0.5,0.5-1,0.7-1.7,0.7c-0.7,0-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7c0-0.7,0.2-1.2,0.7-1.7c0.5-0.5,1-0.7,1.7-0.7
+			c0.7,0,1.2,0.2,1.7,0.7C13.8,13.8,14.1,14.4,14.1,15z M10.2,25l1.8-1.1c1.6,2.9,3.9,4.3,6.9,4.3c3,0,5.3-1.4,6.9-4.3l1.9,1.1
+			c-1,1.9-2.2,3.3-3.7,4.3c-1.5,1-3.1,1.5-5.1,1.5c-1.9,0-3.6-0.5-5.1-1.5C12.4,28.4,11.2,26.9,10.2,25z M28.6,15
+			c0,0.7-0.2,1.2-0.7,1.7c-0.5,0.5-1,0.7-1.7,0.7c-0.7,0-1.2-0.2-1.7-0.7c-0.5-0.5-0.7-1-0.7-1.7c0-0.7,0.2-1.2,0.7-1.7
+			c0.5-0.5,1-0.7,1.7-0.7c0.7,0,1.2,0.2,1.7,0.7C28.4,13.8,28.6,14.4,28.6,15z"/>
+	</g>
+</svg>
+                    <svg class="emoji__good-mood" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z M14.1,15c0,0.7-0.2,1.2-0.7,1.7s-1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7s0.2-1.2,0.7-1.7s1-0.7,1.7-0.7s1.2,0.2,1.7,0.7
+		C13.8,13.8,14.1,14.4,14.1,15z M28.6,15c0,0.7-0.2,1.2-0.7,1.7s-1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7s0.2-1.2,0.7-1.7
+		s1-0.7,1.7-0.7s1.2,0.2,1.7,0.7C28.4,13.8,28.6,14.4,28.6,15z"/>
+	<path d="M19,30.6c-4.3,0-7.9-2.8-9.2-6.6h18.5C26.9,27.8,23.2,30.6,19,30.6z"/>
+</svg>
+                    <svg class="emoji__happy-mood" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z"/>
+	<path d="M19,30.6c-4.3,0-7.9-2.8-9.2-6.6h18.5C26.9,27.8,23.2,30.6,19,30.6z"/>
+	<path d="M11.6,14.9c1.2,0,2.3,1,2.3,2.3h2.3c0-2.6-2.1-4.6-4.6-4.6s-4.6,2-4.6,4.6h2.3C9.4,15.8,10.4,14.9,11.6,14.9z"/>
+	<path d="M26.3,14.9c1.2,0,2.3,1,2.3,2.3h2.3c0-2.6-2.1-4.6-4.6-4.6s-4.6,2-4.6,4.6H24C24,15.8,25,14.9,26.3,14.9z"/>
+</svg>
+                    <svg class="emoji__helicopter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="49px" viewBox="0 0 37.9 49" xml:space="preserve">
+	<path class="st0" d="M19,39.4c-3,0-5.3-1.4-6.9-4.3l-1.8,1.1c1,1.9,2.2,3.3,3.7,4.3c1.4,1,3.1,1.5,5.1,1.5c1.9,0,3.6-0.5,5.1-1.5
+		c1.5-1,2.7-2.4,3.7-4.3l-1.9-1.1C24.3,37.9,22,39.4,19,39.4z"/>
+	<path class="st0" d="M13.4,27.8c0.5-0.5,0.7-1,0.7-1.7c0-0.7-0.2-1.2-0.7-1.7c-0.5-0.5-1-0.7-1.7-0.7c-0.7,0-1.2,0.2-1.7,0.7
+		c-0.5,0.5-0.7,1-0.7,1.7c0,0.7,0.2,1.2,0.7,1.7s1,0.7,1.7,0.7C12.4,28.6,12.9,28.3,13.4,27.8z"/>
+	<path class="st0" d="M26.2,23.7c-0.7,0-1.2,0.2-1.7,0.7c-0.5,0.5-0.7,1-0.7,1.7c0,0.7,0.2,1.2,0.7,1.7c0.5,0.5,1,0.7,1.7,0.7
+		c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1,0.7-1.7c0-0.7-0.2-1.2-0.7-1.7C27.5,24,26.9,23.7,26.2,23.7z"/>
+	<path class="st0" d="M32.3,16.7c-3.7-3.7-8.2-5.5-13.4-5.5c-5.2,0-9.7,1.8-13.4,5.5C1.9,20.4,0,24.8,0,30.1c0,5.2,1.9,9.7,5.6,13.4
+		S13.7,49,19,49c5.2,0,9.7-1.8,13.4-5.5c3.7-3.7,5.5-8.2,5.5-13.4C37.9,24.8,36,20.4,32.3,16.7z M30.4,41.5c-3.2,3.2-7,4.7-11.5,4.7
+		c-4.5,0-8.3-1.6-11.5-4.7c-3.2-3.2-4.7-7-4.7-11.4c0-3,0.7-5.7,2.1-8.1c4.2-2.2,8.9-3.4,14.1-3.4c5.2,0,9.8,1.1,14.1,3.4
+		c1.4,2.4,2.1,5.1,2.1,8.1C35.2,34.5,33.6,38.3,30.4,41.5z"/>
+	<path class="st0" d="M10.5,4.8c1,0,5.2-0.9,7.3-1.7v6.4h2V3.1C22,3.8,26,4.8,26.9,4.8c1.4,0,2.4-1,2.4-2.4c0-1.4-1-2.4-2.4-2.4
+		c-1.2,0-6.9,1.4-8.2,2.1c-1.5-0.7-7-2.1-8.2-2.1C9.2,0,8.1,1,8.1,2.4C8.1,3.7,9.2,4.8,10.5,4.8z"/>
+</svg>
+                    <svg class="emoji__heart" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z M10.2,25l1.8-1.1c1.6,2.9,3.9,4.3,6.9,4.3s5.3-1.4,6.9-4.3l1.9,1.1c-1,1.9-2.2,3.3-3.7,4.3c-1.5,1-3.1,1.5-5.1,1.5
+		c-1.9,0-3.6-0.5-5.1-1.5C12.4,28.4,11.2,26.9,10.2,25z"/>
+	<path d="M12,19.3l-0.7-0.7c-2.5-2.2-4.1-3.6-4.1-5.4c0-1.5,1.1-2.6,2.6-2.6c0.8,0,1.6,0.4,2.1,1c0.5-0.6,1.3-1,2.1-1
+		c1.5,0,2.6,1.1,2.6,2.6c0,1.8-1.6,3.3-4.1,5.4L12,19.3z"/>
+	<path d="M25.8,19.3l-0.7-0.7c-2.5-2.2-4.1-3.6-4.1-5.4c0-1.5,1.1-2.6,2.6-2.6c0.8,0,1.6,0.4,2.1,1c0.5-0.6,1.3-1,2.1-1
+		c1.5,0,2.6,1.1,2.6,2.6c0,1.8-1.6,3.3-4.1,5.4L25.8,19.3z"/>
+</svg>
+                    <svg class="emoji__smile-rotate" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M36.4,26.2c-2,4.8-5.4,8.3-10.2,10.3c-4.8,2-9.7,1.9-14.5,0c-4.8-2-8.3-5.4-10.3-10.2s-2-9.7,0-14.5
+		S6.9,3.5,11.7,1.5c4.9-2.1,9.6-2.1,14.5,0c4.8,2,8.3,5.4,10.3,10.2C38.4,16.5,38.5,21.4,36.4,26.2z M33.9,25.2
+		c1.7-4.2,1.7-8.3,0.1-12.4c-1.7-4.2-4.7-7-8.8-8.7S16.8,2.3,12.7,4c-4.2,1.7-7,4.7-8.7,8.8s-1.7,8.3,0,12.3c1.7,4.2,4.7,7,8.8,8.7
+		c4.2,1.7,8.3,1.7,12.4,0.1C29.3,32.2,32.2,29.2,33.9,25.2z M16,13.4c-0.3,0.6-0.6,1-1.3,1.3c-0.7,0.3-1.2,0.3-1.8,0
+		c-0.6-0.3-1-0.6-1.3-1.3c-0.3-0.7-0.3-1.2,0-1.8c0.3-0.6,0.6-1,1.3-1.3c0.7-0.3,1.2-0.3,1.8,0c0.6,0.3,1,0.6,1.3,1.3
+		C16.2,12.2,16.2,12.9,16,13.4z M8.6,21.2l2.1-0.3c0.4,3.3,2,5.5,4.7,6.6s5.4,0.7,8-1.3l1.3,1.7c-1.7,1.4-3.3,2.2-5.1,2.6
+		c-1.8,0.3-3.4,0.2-5.3-0.6c-1.8-0.7-3.1-1.8-4.1-3.3C9.3,25.2,8.7,23.3,8.6,21.2z M29.4,19c-0.3,0.6-0.6,1-1.3,1.3
+		c-0.7,0.3-1.2,0.3-1.8,0c-0.6-0.3-1-0.6-1.3-1.3c-0.3-0.7-0.3-1.2,0-1.8c0.3-0.6,0.6-1,1.3-1.3c0.7-0.3,1.2-0.3,1.8,0
+		c0.6,0.3,1,0.6,1.3,1.3C29.7,17.8,29.6,18.4,29.4,19z"/>
+</svg>
+                </span>
+                <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+                <span class="button-cart__number snipcart-total-items"></span> <span class="hide-mobile button-cart__item">item<span>s</span></span>
+            </span>
+        </a>
+		        <a href="#" class="button-cart snipcart-checkout js-cart js-snip-btn button-cart__nav__overlay">
+            <svg class="button-cart__arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="-348.2 542.4 106.3 127.2" xml:space="preserve">
+	<polygon points="-241.9,616.4 -295,669.6 -348.2,616.4 -348.2,581.4 -307.8,621.8 -307.7,542.4 -282,542.4 -282,621.5 -241.8,581.3
+	"/>
+</svg>
+
+            <span class="button-cart__wrap snipcart-summary">
+                <span class="button-cart__title hide-mobile">cart</span>
+                <span class="button-cart__emoticon hide-mobile">
+                    <svg class="emoji__smile" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<g id="XMLID_9_">
+		<path id="XMLID_10_" class="st0" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4c-3.7,3.7-8.2,5.5-13.4,5.5c-5.2,0-9.7-1.8-13.4-5.5
+			S0,24.2,0,19c0-5.2,1.9-9.7,5.6-13.4C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19
+			c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7c-4.5,0-8.3,1.6-11.5,4.7c-3.2,3.2-4.7,7-4.7,11.5c0,4.5,1.6,8.3,4.7,11.4
+			c3.2,3.2,7,4.7,11.5,4.7c4.5,0,8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19z M14.1,15c0,0.7-0.2,1.2-0.7,1.7
+			c-0.5,0.5-1,0.7-1.7,0.7c-0.7,0-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7c0-0.7,0.2-1.2,0.7-1.7c0.5-0.5,1-0.7,1.7-0.7
+			c0.7,0,1.2,0.2,1.7,0.7C13.8,13.8,14.1,14.4,14.1,15z M10.2,25l1.8-1.1c1.6,2.9,3.9,4.3,6.9,4.3c3,0,5.3-1.4,6.9-4.3l1.9,1.1
+			c-1,1.9-2.2,3.3-3.7,4.3c-1.5,1-3.1,1.5-5.1,1.5c-1.9,0-3.6-0.5-5.1-1.5C12.4,28.4,11.2,26.9,10.2,25z M28.6,15
+			c0,0.7-0.2,1.2-0.7,1.7c-0.5,0.5-1,0.7-1.7,0.7c-0.7,0-1.2-0.2-1.7-0.7c-0.5-0.5-0.7-1-0.7-1.7c0-0.7,0.2-1.2,0.7-1.7
+			c0.5-0.5,1-0.7,1.7-0.7c0.7,0,1.2,0.2,1.7,0.7C28.4,13.8,28.6,14.4,28.6,15z"/>
+	</g>
+</svg>
+                    <svg class="emoji__good-mood" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z M14.1,15c0,0.7-0.2,1.2-0.7,1.7s-1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7s0.2-1.2,0.7-1.7s1-0.7,1.7-0.7s1.2,0.2,1.7,0.7
+		C13.8,13.8,14.1,14.4,14.1,15z M28.6,15c0,0.7-0.2,1.2-0.7,1.7s-1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7s-0.7-1-0.7-1.7s0.2-1.2,0.7-1.7
+		s1-0.7,1.7-0.7s1.2,0.2,1.7,0.7C28.4,13.8,28.6,14.4,28.6,15z"/>
+	<path d="M19,30.6c-4.3,0-7.9-2.8-9.2-6.6h18.5C26.9,27.8,23.2,30.6,19,30.6z"/>
+</svg>
+                    <svg class="emoji__happy-mood" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z"/>
+	<path d="M19,30.6c-4.3,0-7.9-2.8-9.2-6.6h18.5C26.9,27.8,23.2,30.6,19,30.6z"/>
+	<path d="M11.6,14.9c1.2,0,2.3,1,2.3,2.3h2.3c0-2.6-2.1-4.6-4.6-4.6s-4.6,2-4.6,4.6h2.3C9.4,15.8,10.4,14.9,11.6,14.9z"/>
+	<path d="M26.3,14.9c1.2,0,2.3,1,2.3,2.3h2.3c0-2.6-2.1-4.6-4.6-4.6s-4.6,2-4.6,4.6H24C24,15.8,25,14.9,26.3,14.9z"/>
+</svg>
+                    <svg class="emoji__helicopter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="49px" viewBox="0 0 37.9 49" xml:space="preserve">
+	<path class="st0" d="M19,39.4c-3,0-5.3-1.4-6.9-4.3l-1.8,1.1c1,1.9,2.2,3.3,3.7,4.3c1.4,1,3.1,1.5,5.1,1.5c1.9,0,3.6-0.5,5.1-1.5
+		c1.5-1,2.7-2.4,3.7-4.3l-1.9-1.1C24.3,37.9,22,39.4,19,39.4z"/>
+	<path class="st0" d="M13.4,27.8c0.5-0.5,0.7-1,0.7-1.7c0-0.7-0.2-1.2-0.7-1.7c-0.5-0.5-1-0.7-1.7-0.7c-0.7,0-1.2,0.2-1.7,0.7
+		c-0.5,0.5-0.7,1-0.7,1.7c0,0.7,0.2,1.2,0.7,1.7s1,0.7,1.7,0.7C12.4,28.6,12.9,28.3,13.4,27.8z"/>
+	<path class="st0" d="M26.2,23.7c-0.7,0-1.2,0.2-1.7,0.7c-0.5,0.5-0.7,1-0.7,1.7c0,0.7,0.2,1.2,0.7,1.7c0.5,0.5,1,0.7,1.7,0.7
+		c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1,0.7-1.7c0-0.7-0.2-1.2-0.7-1.7C27.5,24,26.9,23.7,26.2,23.7z"/>
+	<path class="st0" d="M32.3,16.7c-3.7-3.7-8.2-5.5-13.4-5.5c-5.2,0-9.7,1.8-13.4,5.5C1.9,20.4,0,24.8,0,30.1c0,5.2,1.9,9.7,5.6,13.4
+		S13.7,49,19,49c5.2,0,9.7-1.8,13.4-5.5c3.7-3.7,5.5-8.2,5.5-13.4C37.9,24.8,36,20.4,32.3,16.7z M30.4,41.5c-3.2,3.2-7,4.7-11.5,4.7
+		c-4.5,0-8.3-1.6-11.5-4.7c-3.2-3.2-4.7-7-4.7-11.4c0-3,0.7-5.7,2.1-8.1c4.2-2.2,8.9-3.4,14.1-3.4c5.2,0,9.8,1.1,14.1,3.4
+		c1.4,2.4,2.1,5.1,2.1,8.1C35.2,34.5,33.6,38.3,30.4,41.5z"/>
+	<path class="st0" d="M10.5,4.8c1,0,5.2-0.9,7.3-1.7v6.4h2V3.1C22,3.8,26,4.8,26.9,4.8c1.4,0,2.4-1,2.4-2.4c0-1.4-1-2.4-2.4-2.4
+		c-1.2,0-6.9,1.4-8.2,2.1c-1.5-0.7-7-2.1-8.2-2.1C9.2,0,8.1,1,8.1,2.4C8.1,3.7,9.2,4.8,10.5,4.8z"/>
+</svg>
+                    <svg class="emoji__heart" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M37.9,19c0,5.2-1.8,9.7-5.5,13.4s-8.2,5.5-13.4,5.5s-9.7-1.8-13.4-5.5S0,24.2,0,19S1.9,9.3,5.6,5.6
+		C9.3,1.8,13.7,0,19,0c5.2,0,9.7,1.8,13.4,5.5C36,9.2,37.9,13.7,37.9,19z M35.1,19c0-4.5-1.6-8.3-4.7-11.5c-3.2-3.2-7-4.7-11.5-4.7
+		S10.6,4.4,7.4,7.5c-3.2,3.2-4.7,7-4.7,11.5s1.6,8.3,4.7,11.4c3.2,3.2,7,4.7,11.5,4.7s8.3-1.6,11.5-4.7C33.6,27.2,35.1,23.4,35.1,19
+		z M10.2,25l1.8-1.1c1.6,2.9,3.9,4.3,6.9,4.3s5.3-1.4,6.9-4.3l1.9,1.1c-1,1.9-2.2,3.3-3.7,4.3c-1.5,1-3.1,1.5-5.1,1.5
+		c-1.9,0-3.6-0.5-5.1-1.5C12.4,28.4,11.2,26.9,10.2,25z"/>
+	<path d="M12,19.3l-0.7-0.7c-2.5-2.2-4.1-3.6-4.1-5.4c0-1.5,1.1-2.6,2.6-2.6c0.8,0,1.6,0.4,2.1,1c0.5-0.6,1.3-1,2.1-1
+		c1.5,0,2.6,1.1,2.6,2.6c0,1.8-1.6,3.3-4.1,5.4L12,19.3z"/>
+	<path d="M25.8,19.3l-0.7-0.7c-2.5-2.2-4.1-3.6-4.1-5.4c0-1.5,1.1-2.6,2.6-2.6c0.8,0,1.6,0.4,2.1,1c0.5-0.6,1.3-1,2.1-1
+		c1.5,0,2.6,1.1,2.6,2.6c0,1.8-1.6,3.3-4.1,5.4L25.8,19.3z"/>
+</svg>
+                    <svg class="emoji__smile-rotate" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="37.9px" height="37.9px" viewBox="0 0 37.9 37.9" xml:space="preserve">
+	<path id="XMLID_10_" d="M36.4,26.2c-2,4.8-5.4,8.3-10.2,10.3c-4.8,2-9.7,1.9-14.5,0c-4.8-2-8.3-5.4-10.3-10.2s-2-9.7,0-14.5
+		S6.9,3.5,11.7,1.5c4.9-2.1,9.6-2.1,14.5,0c4.8,2,8.3,5.4,10.3,10.2C38.4,16.5,38.5,21.4,36.4,26.2z M33.9,25.2
+		c1.7-4.2,1.7-8.3,0.1-12.4c-1.7-4.2-4.7-7-8.8-8.7S16.8,2.3,12.7,4c-4.2,1.7-7,4.7-8.7,8.8s-1.7,8.3,0,12.3c1.7,4.2,4.7,7,8.8,8.7
+		c4.2,1.7,8.3,1.7,12.4,0.1C29.3,32.2,32.2,29.2,33.9,25.2z M16,13.4c-0.3,0.6-0.6,1-1.3,1.3c-0.7,0.3-1.2,0.3-1.8,0
+		c-0.6-0.3-1-0.6-1.3-1.3c-0.3-0.7-0.3-1.2,0-1.8c0.3-0.6,0.6-1,1.3-1.3c0.7-0.3,1.2-0.3,1.8,0c0.6,0.3,1,0.6,1.3,1.3
+		C16.2,12.2,16.2,12.9,16,13.4z M8.6,21.2l2.1-0.3c0.4,3.3,2,5.5,4.7,6.6s5.4,0.7,8-1.3l1.3,1.7c-1.7,1.4-3.3,2.2-5.1,2.6
+		c-1.8,0.3-3.4,0.2-5.3-0.6c-1.8-0.7-3.1-1.8-4.1-3.3C9.3,25.2,8.7,23.3,8.6,21.2z M29.4,19c-0.3,0.6-0.6,1-1.3,1.3
+		c-0.7,0.3-1.2,0.3-1.8,0c-0.6-0.3-1-0.6-1.3-1.3c-0.3-0.7-0.3-1.2,0-1.8c0.3-0.6,0.6-1,1.3-1.3c0.7-0.3,1.2-0.3,1.8,0
+		c0.6,0.3,1,0.6,1.3,1.3C29.7,17.8,29.6,18.4,29.4,19z"/>
+</svg>
+                </span>
+                <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+                <span class="button-cart__number snipcart-total-items"></span> <span class="hide-mobile button-cart__item">item<span>s</span></span>
+            </span>
+        </a>
+
+		<div class="site-header__nav nav-overlay nav-overlay__wrapper">
+            <div class="nav-overlay__container">
+    			<div class="grid__wrapper">
+    	            <div class="grid__container grid__container__main">
+    	                <div class="grid__item grid__item__left"></div>
+    	                <div class="grid__item grid__item__right">
+    						<div class="grid__container">
+    							<div class="grid__item grid__item__two-thirds"></div>
+    							<div class="grid__item grid__item__third nav-overlay__checkout-container">
+    								<a href="#" class="nav-overlay__checkout menu-anim snipcart-checkout">checkout</a>
+    							</div>
+    						</div>
+    	                </div>
+    	            </div>
+    	        </div>
+
+                <div class="grid__wrapper no-padding">
+                    <div class="nav-overlay__nav-tools">
+	                    <div class="nav-overlay__nav-tools__rotate">
+							<nav class="nav-tools">
+    <ul class="nav-tools__list">
+        <li class="nav-tools__item">
+            currency
+        </li>
+        <li class="nav-tools__item">
+            <select class="currency-select js-currency-toggle">
+                <option value="cad" >cad</option>
+                <option value="usd" selected>usd</option>
+                <option value="eur" >eur</option>
+            </select>
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="7.7px" height="4.3px" viewBox="0 0 7.7 4.3" enable-background="new 0 0 7.7 4.3" xml:space="preserve">
+<path fill="#999999" d="M7.1,0.1C6.7,0.5,3.9,3.2,3.9,3.2S1,0.5,0.6,0.1S0,0.7,0,0.7l3.9,3.6l3.8-3.6C7.7,0.7,7.5-0.3,7.1,0.1z"/>
+</svg>
+        </li>
+    </ul>
+</nav>
+	                    </div>
+                    </div>
+                    <div class="grid__container grid__container__main">
+                        <div class="grid__item grid__item__left"></div>
+    	                <div class="grid__item grid__item__right">
+        					<div class="grid__container">
+        						<div class="grid__item grid__item__two-thirds">
+                                    <div class="menu-anim">
+            							<nav class="site-main__nav site-nav"><ul id="menu-main_menu" class="site-main__nav__list">
+<li class='site-main__nav__item'><a href='https://yelvy.com/'>Home</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/featured/sale/'>sale</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/featured/new-arrivals/'>new arrivals</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/products/'>All Products</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/about/'>about</a></li>
+</li>
+</ul></nav>            						</div>
+        						</div>
+        					</div>
+    	                </div>
+    	            </div>
+
+                    <div class="grid__container grid__container__main">
+                        <div class="grid__item grid__item__left"></div>
+    	                <div class="grid__item grid__item__right">
+        					<div class="grid__container">
+        						<div class="grid__item grid__item__two-thirds"></div>
+        						<div class="grid__item grid__item__third">
+                                    <div class="menu-anim">
+            							<nav class="site-second__nav site-nav"><ul id="menu-second_menu" class="site-second__nav__list">
+<li class='site-second_nav__item'><a href='https://yelvy.com/contact/'>contact</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/terms/'>terms</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/faq/'>faq</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/shipping-returns/'>shipping/returns</a></li>
+</li>
+</ul></nav>            						</div>
+        						</div>
+        					</div>
+    	                </div>
+    	            </div>
+    	        </div>
+
+				<div class="nav-overlay__footer menu-anim">
+                    <div class="grid__wrapper">
+    <div class="grid__container grid__container__main">
+        <div class="grid__item grid__item__left">
+            <div class="newsletter">
+                <p>
+                    <span>newsletter</span>
+                </p>
+                <div class="newsletter-wrap">
+                    <svg class="newsletter__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="62.7px" height="35.2px" viewBox="-361.8 587.6 62.7 35.2" style="enable-background:new -361.8 587.6 62.7 35.2;"
+	xml:space="preserve">
+	<path d="M-361.8,587.6v35h62.7v-35H-361.8z M-330.5,607.6l-29.1-19h58.3L-330.5,607.6z M-337.3,604.4l-23.6,16.7V589L-337.3,604.4z
+		M-336.4,605l5.8,3.8l5.9-3.8l23.4,16.6h-58.5L-336.4,605z M-323.8,604.4l23.6-15.3v32.1L-323.8,604.4z"/>
+</svg>
+
+                    <div id="mc_embed_signup">
+                        <form action="//yelvy.us16.list-manage.com/subscribe/post?u=b5035a645eb6689ee6abcdf50&amp;id=203669ddbe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter__form validate" target="_blank" novalidate>
+
+                            <div class="newsletter__form__wrap">
+                                <input type="email" class="newsletter__form__input required email" required name="EMAIL" id="mce-EMAIL" placeholder="email address">
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b5035a645eb6689ee6abcdf50_203669ddbe" tabindex="-1" value=""></div>
+                                <button class="newsletter__form__button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                    <svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.5 32" style="enable-background:new 0 0 25.5 32;" xml:space="preserve"> <path class="st0" d="M25.5,16L0,32V0L25.5,16z"/></svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="newsletter__form__shadow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid__item grid__item__right grid__align--bottom">
+            <div class="grid__container">
+                <div class="grid__item grid__item__two-thirds grid__align--bottom site-footer__copyright__row">
+                    <p class="site-footer__copyright">
+                        <span>all rights reserved 2022 &copy; yelvy</span><span class="site-footer__copyright__credit"><a href="https://yelvy.com/credits/" class="site-footer__copyright__credit__link">credits</a></span>
+                    </p>
+                </div>
+                <div class="grid__item grid__item__third grid__align--bottom">
+                    <div class="social">
+    <ul class="social__list">
+        <li class="social__item">
+            <a href="https://www.facebook.com/yelvyyy/" class="social__link social__link__facebook" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="11.5px" height="25px" viewBox="0 0 11.5 25" style="enable-background:new 0 0 11.5 25;" xml:space="preserve">
+	<path d="M2.6,25h5V12.4h3.5l0.4-4.2H7.7c0,0,0-1.6,0-2.4c0-1,0.2-1.4,1.2-1.4c0.8,0,2.7,0,2.7,0V0c0,0-2.9,0-3.5,0
+	C4.3,0,2.6,1.6,2.6,4.8c0,2.8,0,3.4,0,3.4H0v4.3h2.6V25z"/>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://twitter.com/yelvyyy" class="social__link social__link__twitter" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="24px" height="25px" viewBox="0 0 24 25" style="enable-background:new 0 0 24 25;" xml:space="preserve">
+    <path d="M0,20.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14.3-7.7,14-14.6c1-0.7,1.8-1.6,2.5-2.5c-0.9,0.4-1.8,0.7-2.8,0.8
+    	c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6c-3.2,0-5.5,3-4.8,6C7.7,8.6,4.1,6.7,1.7,3.7
+    	C0.4,5.9,1,8.8,3.2,10.3C2.4,10.2,1.6,10,1,9.6c-0.1,2.3,1.6,4.4,3.9,4.9c-0.7,0.2-1.5,0.2-2.2,0.1c0.6,2,2.4,3.4,4.6,3.4
+    	C5.2,19.7,2.6,20.4,0,20.1z"/>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://www.youtube.com/channel/UCTWiFNUCUF9k-t4CiLLCNvA" class="social__link social__link__youtube" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="22.3px" viewBox="0 0 32 22.3" style="enable-background:new 0 0 32 22.3;" xml:space="preserve">
+<g>
+	<path d="M31.4,3.6c-0.4-1.7-1.8-3-3.5-3.1C24,0,20,0,16,0C12,0,8,0,4,0.4C2.3,0.6,1,1.9,0.6,3.6C0,6,0,8.7,0,11.2s0,5.1,0.6,7.6
+		c0.4,1.7,1.8,3,3.5,3.1c4,0.4,8,0.4,12,0.4c4,0,8,0,12-0.4c1.7-0.2,3.1-1.4,3.5-3.1c0.6-2.4,0.6-5.1,0.6-7.6C32,8.7,32,6,31.4,3.6z
+		 M11.9,16.1c0-3.5,0-7,0-10.6c3.4,1.8,6.8,3.5,10.2,5.3C18.6,12.6,15.3,14.4,11.9,16.1z"/>
+</g>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://www.instagram.com/yelvy/" class="social__link social__link__instagram" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="23px" height="25px" viewBox="0 0 23 25" style="enable-background:new 0 0 23 25;" xml:space="preserve">
+	<path d="M11.5,3.1c3.1,0,3.4,0,4.6,0.1c1.1,0.1,1.7,0.2,2.1,0.4c0.5,0.2,0.9,0.5,1.3,0.9c0.4,0.4,0.7,0.8,0.9,1.3
+		c0.2,0.4,0.3,1,0.4,2.1c0.1,1.2,0.1,1.6,0.1,4.6c0,3.1,0,3.4-0.1,4.6c-0.1,1.1-0.2,1.7-0.4,2.1c-0.2,0.5-0.5,0.9-0.9,1.3
+		c-0.4,0.4-0.8,0.7-1.3,0.9c-0.4,0.2-1,0.3-2.1,0.4c-1.2,0.1-1.6,0.1-4.6,0.1c-3.1,0-3.4,0-4.6-0.1c-1.1-0.1-1.7-0.2-2.1-0.4
+		c-0.5-0.2-0.9-0.5-1.3-0.9c-0.4-0.4-0.7-0.8-0.9-1.3c-0.2-0.4-0.3-1-0.4-2.1c-0.1-1.2-0.1-1.6-0.1-4.6c0-3.1,0-3.4,0.1-4.6
+		c0.1-1.1,0.2-1.7,0.4-2.1C2.7,5.2,3,4.8,3.4,4.4C3.8,4,4.2,3.7,4.7,3.5c0.4-0.2,1-0.3,2.1-0.4C8.1,3.1,8.4,3.1,11.5,3.1 M11.5,1
+		C8.4,1,8,1,6.8,1.1C5.5,1.1,4.7,1.3,4,1.6c-0.8,0.3-1.4,0.7-2,1.3c-0.6,0.6-1,1.3-1.3,2C0.3,5.7,0.1,6.5,0.1,7.8C0,9,0,9.4,0,12.5
+		c0,3.1,0,3.5,0.1,4.7c0.1,1.2,0.3,2.1,0.5,2.8c0.3,0.8,0.7,1.4,1.3,2c0.6,0.6,1.3,1,2,1.3c0.7,0.3,1.6,0.5,2.8,0.5
+		C8,24,8.4,24,11.5,24c3.1,0,3.5,0,4.7-0.1c1.2-0.1,2.1-0.3,2.8-0.5c0.8-0.3,1.4-0.7,2-1.3c0.6-0.6,1-1.3,1.3-2
+		c0.3-0.7,0.5-1.6,0.5-2.8C23,16,23,15.6,23,12.5c0-3.1,0-3.5-0.1-4.7c-0.1-1.2-0.3-2.1-0.5-2.8c-0.3-0.8-0.7-1.4-1.3-2
+		c-0.6-0.6-1.3-1-2-1.3c-0.7-0.3-1.6-0.5-2.8-0.5C15,1,14.6,1,11.5,1"/>
+	<path d="M11.5,6.6c-3.3,0-5.9,2.6-5.9,5.9c0,3.3,2.6,5.9,5.9,5.9s5.9-2.6,5.9-5.9C17.4,9.2,14.8,6.6,11.5,6.6 M11.5,16.3
+		c-2.1,0-3.8-1.7-3.8-3.8s1.7-3.8,3.8-3.8s3.8,1.7,3.8,3.8S13.6,16.3,11.5,16.3"/>
+	<path d="M19,6.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4C18.4,5,19,5.6,19,6.4"/>
+</svg>
+            </a>
+        </li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+
+				<div class="nav-overlay__bg nav-overlay__bg--primary"></div>
+				<div class="nav-overlay__bg nav-overlay__bg--secondary"></div>
+    		</div>
+		</div>
+    </header>
+
+
+
+	<div class="logo logo-menu">
+        <div class="logo__wrapper js-sticky-element">
+    <div class="logo__container logo__dynamic">
+        <a href="/" class="logo__link"></a>
+
+        <span class="logo__y logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M4.6,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.6,41.5H26l25.3,67.8L77,41.5h20.8l-42.5,106c-2.2,5.4-4.4,10-6.7,13.8s-4.8,6.9-7.6,9.3
+                c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.6,157.5z"/>
+            </svg>
+        </span>
+
+        <span class="logo__e logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M20.9,95.4c0.1,4.9,0.6,9.3,1.5,13.1c1,3.8,2.5,6.9,4.6,9.5c2.1,2.5,4.7,4.5,8,5.8s7.3,2,12.2,2c4.5,0,8.5-0.8,12-2.3
+                s6.7-4.1,9.6-7.8l15.5,10.5c-1.9,2.8-4,5.3-6.3,7.4c-2.3,2.1-5,3.9-8.1,5.4c-3.1,1.4-6.6,2.5-10.5,3.3s-8.4,1.1-13.4,1.1
+                c-15.7,0-27.3-4.3-34.8-13S0,108.9,0,92c0-7.9,0.8-15.2,2.4-21.6c1.6-6.5,4.2-12,7.7-16.7c3.5-4.6,8.2-8.2,13.9-10.8
+                c5.7-2.5,12.7-3.8,20.9-3.8c7.3,0,13.6,1.1,18.7,3.3c5.2,2.2,9.4,5.3,12.6,9.3c3.3,4,5.6,8.8,7.1,14.5c1.5,5.6,2.3,11.9,2.3,18.7
+                v10.6L20.9,95.4L20.9,95.4z M65.6,80.6c0-8.2-1.7-14.4-5.2-18.7c-3.4-4.3-8.9-6.4-16.2-6.4c-3.8,0-7,0.5-9.6,1.6
+                c-2.7,1.1-4.9,2.7-6.7,4.8s-3.2,4.8-4.3,7.9s-1.9,6.7-2.4,10.8H65.6z"/>
+            </svg>
+        </span>
+
+        <span class="logo__l logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 39 177.6" style="enable-background:new 0 0 39 177.6;" xml:space="preserve">
+                <path d="M0,140.4V0h20.3v140.4H0z"/>
+            </svg>
+        </span>
+
+        <span class="logo__v logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 95.7 177.6" style="enable-background:new 0 0 95.7 177.6;" xml:space="preserve">
+                <path d="M54.2,140.4H35L0.2,41.5h21L45.1,113l23.6-71.5h20.6L54.2,140.4z"/>
+            </svg>
+        </span>
+
+        <span class="logo__ytm logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 135.3 177.6" style="enable-background:new 0 0 135.3 177.6;" xml:space="preserve">
+                <path d="M4.8,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.7,41.4h21.4l25.3,67.8l25.7-67.8h20.8L55.4,147.5c-2.2,5.4-4.4,10-6.7,13.8
+                c-2.3,3.8-4.8,6.9-7.6,9.3c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.8,157.5z"/>
+                <g>
+                    <path d="M119.6,44.4v8.9h-2.3v-8.9h-3.4v-2.1h9v2.1H119.6z"/>
+                    <path d="M133.1,53.3v-7.4l-2.6,4.6h-1.3l-2.6-4.6v7.4h-2.2v-11h2.6l2.9,5.2l2.9-5.2h2.5v11H133.1z"/>
+                </g>
+            </svg>
+        </span>
+    </div>
+</div>
+	</div>
+
+
+	<div class="scroller-wrapper" scrollbar>
+		<main id="barba-wrapper">
+		  	<section class="barba-container" data-namespace="shop">
+                <div class="logo__wrapper js-sticky-element">
+    <div class="logo__container logo__dynamic">
+        <a href="/" class="logo__link"></a>
+
+        <span class="logo__y logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M4.6,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.6,41.5H26l25.3,67.8L77,41.5h20.8l-42.5,106c-2.2,5.4-4.4,10-6.7,13.8s-4.8,6.9-7.6,9.3
+                c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.6,157.5z"/>
+            </svg>
+        </span>
+
+        <span class="logo__e logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M20.9,95.4c0.1,4.9,0.6,9.3,1.5,13.1c1,3.8,2.5,6.9,4.6,9.5c2.1,2.5,4.7,4.5,8,5.8s7.3,2,12.2,2c4.5,0,8.5-0.8,12-2.3
+                s6.7-4.1,9.6-7.8l15.5,10.5c-1.9,2.8-4,5.3-6.3,7.4c-2.3,2.1-5,3.9-8.1,5.4c-3.1,1.4-6.6,2.5-10.5,3.3s-8.4,1.1-13.4,1.1
+                c-15.7,0-27.3-4.3-34.8-13S0,108.9,0,92c0-7.9,0.8-15.2,2.4-21.6c1.6-6.5,4.2-12,7.7-16.7c3.5-4.6,8.2-8.2,13.9-10.8
+                c5.7-2.5,12.7-3.8,20.9-3.8c7.3,0,13.6,1.1,18.7,3.3c5.2,2.2,9.4,5.3,12.6,9.3c3.3,4,5.6,8.8,7.1,14.5c1.5,5.6,2.3,11.9,2.3,18.7
+                v10.6L20.9,95.4L20.9,95.4z M65.6,80.6c0-8.2-1.7-14.4-5.2-18.7c-3.4-4.3-8.9-6.4-16.2-6.4c-3.8,0-7,0.5-9.6,1.6
+                c-2.7,1.1-4.9,2.7-6.7,4.8s-3.2,4.8-4.3,7.9s-1.9,6.7-2.4,10.8H65.6z"/>
+            </svg>
+        </span>
+
+        <span class="logo__l logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 39 177.6" style="enable-background:new 0 0 39 177.6;" xml:space="preserve">
+                <path d="M0,140.4V0h20.3v140.4H0z"/>
+            </svg>
+        </span>
+
+        <span class="logo__v logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 95.7 177.6" style="enable-background:new 0 0 95.7 177.6;" xml:space="preserve">
+                <path d="M54.2,140.4H35L0.2,41.5h21L45.1,113l23.6-71.5h20.6L54.2,140.4z"/>
+            </svg>
+        </span>
+
+        <span class="logo__ytm logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 135.3 177.6" style="enable-background:new 0 0 135.3 177.6;" xml:space="preserve">
+                <path d="M4.8,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.7,41.4h21.4l25.3,67.8l25.7-67.8h20.8L55.4,147.5c-2.2,5.4-4.4,10-6.7,13.8
+                c-2.3,3.8-4.8,6.9-7.6,9.3c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.8,157.5z"/>
+                <g>
+                    <path d="M119.6,44.4v8.9h-2.3v-8.9h-3.4v-2.1h9v2.1H119.6z"/>
+                    <path d="M133.1,53.3v-7.4l-2.6,4.6h-1.3l-2.6-4.6v7.4h-2.2v-11h2.6l2.9,5.2l2.9-5.2h2.5v11H133.1z"/>
+                </g>
+            </svg>
+        </span>
+    </div>
+</div>
+
+<div class="sticky-cta bottom-bar js-sticky-element js-printed-checker">
+    <div class="grid__wrapper sticky-cta__container">
+        <div class="grid__container grid__container__main">
+            <div class="grid__item grid__item__left">
+                <div class="sticky-cta__left">
+                    <div class="sticky-cta__text">
+                        <span class="sticky-cta__shop">shop</span>
+                        <button type="button" class="button-select js-select-category">
+                            <span class="blink">
+                                <span class="link__stroke">
+                                    all
+                                </span>
+                                <sup class="js-product-count">31</sup>
+                            </span>
+                            <div class="button-select__icon">
+                                <svg class="button-select__chevron" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="10px" height="20px" viewBox="0 0 10 20" style="enable-background:new 0 0 10 20;" xml:space="preserve">
+	<polygon class="button-select__chevron__top" points="5,0 0.1,7.9 10,7.9"/>
+	<polygon class="button-select__chevron__bottom" points="5,20 10,12.1 0.1,12.1"/>
+</svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="overlay-category js-sticky-element">
+    <div class="overlay-category__bg"></div>
+    <div class="grid__wrapper overlay-category__wrapper">
+        <div class="grid__container grid__container__main">
+            <div class="grid__item grid__item__left">
+                <ul class="overlay-category__list">
+					<li class="overlay-category__item">
+						<a href="https://yelvy.com/products/" class="overlay-category__link" style="display: none;" data-category="all" data-category-count="31">
+							all <sup>31</sup>
+						</a>
+					</li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/accessories/" class="overlay-category__link" data-category="accessories" data-category-count="3">
+	                            accessories <sup>3</sup>
+	                        </a>
+	                    </li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/bottoms/" class="overlay-category__link" data-category="bottoms" data-category-count="3">
+	                            bottoms <sup>3</sup>
+	                        </a>
+	                    </li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/coats/" class="overlay-category__link" data-category="coats" data-category-count="2">
+	                            coats <sup>2</sup>
+	                        </a>
+	                    </li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/hats/" class="overlay-category__link" data-category="hats" data-category-count="4">
+	                            hats <sup>4</sup>
+	                        </a>
+	                    </li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/sweatshirts/" class="overlay-category__link" data-category="sweatshirts" data-category-count="2">
+	                            sweatshirts <sup>2</sup>
+	                        </a>
+	                    </li>
+						                    <li class="overlay-category__item">
+	                        <a href="https://yelvy.com/categories/t-shirts/" class="overlay-category__link" data-category="t-shirts" data-category-count="17">
+	                            t-shirts <sup>17</sup>
+	                        </a>
+	                    </li>
+					                </ul>                
+            </div>
+
+            <div class="grid__item grid__item__right">
+                <nav class="overlay-category__featured"><ul id="menu-featured" class="overlay-category__list">
+<li class='overlay-category__item overlay-category__link'><a href='https://yelvy.com/featured/sale/'>sale</a></li>
+</li>
+
+<li class='overlay-category__item overlay-category__link'><a href='https://yelvy.com/featured/new-arrivals/'>new arrivals</a></li>
+</li>
+</ul></nav>            </div>    
+        </div>
+    </div>
+</div>
+
+<div class="grid__wrapper">
+    <div class="grid__container grid__container__main">
+        <div class="grid__item grid__item__left"></div>
+        <div class="grid__item grid__item__right">
+            <div class="shop" id="shop-listing">
+                <ul class="shop__list js-printed-checker">
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/couture-black/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — couture black</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 66</span>
+
+                        <span class="price__item">$ 47</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-black"
+                data-item-name="t-shirts — couture black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-black/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-black.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-black"
+                data-item-name="t-shirts — couture black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-black/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-black.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-black"
+                data-item-name="t-shirts — couture black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-black/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-black.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-black"
+                data-item-name="t-shirts — couture black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-black/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-black.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-black.jpg" alt="couture black">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/couture-white/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — couture white</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 66</span>
+
+                        <span class="price__item">$ 47</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-white"
+                data-item-name="t-shirts — couture white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-white.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-white"
+                data-item-name="t-shirts — couture white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-white.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-white"
+                data-item-name="t-shirts — couture white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-white.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="couture-white"
+                data-item-name="t-shirts — couture white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/couture-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-white.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2020/07/thumbnail-couture-white.jpg" alt="couture white">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-shorts-black/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">bottoms — classic shorts black</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 55</span>
+
+                        <span class="price__item">$ 39</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-shorts-black"
+                data-item-name="bottoms — classic shorts black"
+                data-item-price='{"cad":50,"usd":39,"eur":34}'
+                data-item-url="https://yelvy.com/products/classic-shorts-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-5.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb-5.jpg" alt="classic shorts black">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-shorts-chili/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">bottoms — classic shorts chili</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 55</span>
+
+                        <span class="price__item">$ 39</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-shorts-chili"
+                data-item-name="bottoms — classic shorts chili"
+                data-item-price='{"cad":50,"usd":39,"eur":34}'
+                data-item-url="https://yelvy.com/products/classic-shorts-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-shorts-chili"
+                data-item-name="bottoms — classic shorts chili"
+                data-item-price='{"cad":50,"usd":39,"eur":34}'
+                data-item-url="https://yelvy.com/products/classic-shorts-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-shorts-chili"
+                data-item-name="bottoms — classic shorts chili"
+                data-item-price='{"cad":50,"usd":39,"eur":34}'
+                data-item-url="https://yelvy.com/products/classic-shorts-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb-3.jpg" alt="classic shorts chili">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-shorts-pine/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">bottoms — classic shorts pine</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 55</span>
+
+                        <span class="price__item">$ 39</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-shorts-pine"
+                data-item-name="bottoms — classic shorts pine"
+                data-item-price='{"cad":50,"usd":39,"eur":34}'
+                data-item-url="https://yelvy.com/products/classic-shorts-pine/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-4.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb-4.jpg" alt="classic shorts pine">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/pas-mauvais/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — pas mauvais</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb.jpg" alt="pas mauvais">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/confine-long-sleeve-black/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — confiné long sleeve black</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 78</span>
+
+                        <span class="price__item">$ 55</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-black"
+                data-item-name="t-shirts — confiné long sleeve black"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-black"
+                data-item-name="t-shirts — confiné long sleeve black"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-black"
+                data-item-name="t-shirts — confiné long sleeve black"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb-2.jpg" alt="confiné long sleeve black">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/confine-long-sleeve-chili/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — confiné long sleeve chili</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 78</span>
+
+                        <span class="price__item">$ 55</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-chili"
+                data-item-name="t-shirts — confiné long sleeve chili"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-chili"
+                data-item-name="t-shirts — confiné long sleeve chili"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="confine-long-sleeve-chili"
+                data-item-name="t-shirts — confiné long sleeve chili"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/confine-long-sleeve-chili/"
+                data-item-image="https://yelvy.com/app/uploads/2019/07/thumb-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/07/thumb-1.jpg" alt="confiné long sleeve chili">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-stellar/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 stellar</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/classic-v2-stellar-thumbnail.jpg" alt="classic v2 stellar">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-rose-brown/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 rose brown</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/classic-v2-rosebrown-thumbnail.jpg" alt="classic v2 rose brown">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-white/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 white</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 58</span>
+
+                        <span class="price__item">$ 47</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-white"
+                data-item-name="t-shirts — classic v2 white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-white"
+                data-item-name="t-shirts — classic v2 white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-white"
+                data-item-name="t-shirts — classic v2 white"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-white/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2020/11/thumbnail.jpg" alt="classic v2 white">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-pine/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 pine</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 58</span>
+
+                        <span class="price__item">$ 47</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-pine"
+                data-item-name="t-shirts — classic v2 pine"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-pine/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-pine"
+                data-item-name="t-shirts — classic v2 pine"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-pine/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-pine"
+                data-item-name="t-shirts — classic v2 pine"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-pine/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-pine"
+                data-item-name="t-shirts — classic v2 pine"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-pine/"
+                data-item-image="https://yelvy.com/app/uploads/2020/11/thumbnail-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2020/11/thumbnail-1.jpg" alt="classic v2 pine">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-black/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 black</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 58</span>
+
+                        <span class="price__item">$ 47</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-black"
+                data-item-name="t-shirts — classic v2 black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/02/classic-black-v2-thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-black"
+                data-item-name="t-shirts — classic v2 black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/02/classic-black-v2-thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="classic-v2-black"
+                data-item-name="t-shirts — classic v2 black"
+                data-item-price='{"cad":60,"usd":47,"eur":41}'
+                data-item-url="https://yelvy.com/products/classic-v2-black/"
+                data-item-image="https://yelvy.com/app/uploads/2019/02/classic-black-v2-thumbnail.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/classic-black-v2-thumbnail.jpg" alt="classic v2 black">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-chili/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 chili</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/classic-v2-chili-thumbnail.jpg" alt="classic v2 chili">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/stellar-signature-tote/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">accessories — stellar signature tote</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/tote-thumbnail.jpg" alt="stellar signature tote">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-v2-sleet/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic v2 sleet</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/classic-v2-sleet-thumbnail.jpg" alt="classic v2 sleet">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/sherpa-quarter-zip/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">sweatshirts — sherpa quarter zip</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2018/08/thumb-1.jpg" alt="sherpa quarter zip">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/reversible-silver-navy/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">coats — reversible silver/navy</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 125</span>
+
+                        <span class="price__item">$ 78</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="reversible-coat"
+                data-item-name="coats — reversible silver/navy"
+                data-item-price='{"cad":100,"usd":78,"eur":69}'
+                data-item-url="https://yelvy.com/products/reversible-silver-navy/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/thumbnail-2.jpg" alt="reversible silver/navy">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/beetle/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — beetle</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 39</span>
+
+                        <span class="price__item">$ 27</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="beetle-t-shirt"
+                data-item-name="t-shirts — beetle"
+                data-item-price='{"cad":35,"usd":27,"eur":24}'
+                data-item-url="https://yelvy.com/products/beetle/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="beetle-t-shirt"
+                data-item-name="t-shirts — beetle"
+                data-item-price='{"cad":35,"usd":27,"eur":24}'
+                data-item-url="https://yelvy.com/products/beetle/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="beetle-t-shirt"
+                data-item-name="t-shirts — beetle"
+                data-item-price='{"cad":35,"usd":27,"eur":24}'
+                data-item-url="https://yelvy.com/products/beetle/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="beetle-t-shirt"
+                data-item-name="t-shirts — beetle"
+                data-item-price='{"cad":35,"usd":27,"eur":24}'
+                data-item-url="https://yelvy.com/products/beetle/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2018/08/thumb.jpg" alt="beetle">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/beetle-hoodie/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">sweatshirts — beetle hoodie</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 86</span>
+
+                        <span class="price__item">$ 55</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="beetle-hoodie"
+                data-item-name="sweatshirts — beetle hoodie"
+                data-item-price='{"cad":70,"usd":55,"eur":48}'
+                data-item-url="https://yelvy.com/products/beetle-hoodie/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2018/08/thumb-2.jpg" alt="beetle hoodie">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/beanie-black/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">hats — beanie black</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/11/thumbnail.jpg" alt="beanie black">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/beanie-heather-grey/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">hats — beanie heather grey</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 27</span>
+
+                        <span class="price__item">$ 23</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--no-variations">
+            <button
+            class="add-to-cart__button snipcart-add-item"
+            data-item-id="beanie-heather-grey"
+            data-item-name="hats — beanie heather grey"
+            data-item-price='{"cad":30,"usd":23,"eur":21}'
+            data-item-url="https://yelvy.com/products/beanie-heather-grey/"
+            data-item-image="https://yelvy.com/app/uploads/2019/11/thumbnail-1.jpg"
+    		data-item-taxable="true">
+            </button>
+
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/11/thumbnail-1.jpg" alt="beanie heather grey">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/immortalized-parka/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">coats — immortalized parka</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/thumbnail-coat-compressor.jpg" alt="immortalized parka">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-white/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — classic white</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 35</span>
+
+                        <span class="price__item">$ 23</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-1"
+                data-item-name="t-shirts — classic white"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/classic-white/"
+                data-item-image="https://yelvy.com/app/uploads/2017/07/Untitled-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-1"
+                data-item-name="t-shirts — classic white"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/classic-white/"
+                data-item-image="https://yelvy.com/app/uploads/2017/07/Untitled-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-1"
+                data-item-name="t-shirts — classic white"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/classic-white/"
+                data-item-image="https://yelvy.com/app/uploads/2017/07/Untitled-1.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/07/Untitled-1.jpg" alt="classic white">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/multiple-by-fvckrender/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — multiple by fvckrender</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 39</span>
+
+                        <span class="price__item">$ 31</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="multiple-fvckrender"
+                data-item-name="t-shirts — multiple by fvckrender"
+                data-item-price='{"cad":40,"usd":31,"eur":28}'
+                data-item-url="https://yelvy.com/products/multiple-by-fvckrender/"
+                data-item-image="https://yelvy.com/app/uploads/2018/08/thumb-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2018/08/thumb-3.jpg" alt="multiple by fvckrender">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/scaly-apricot/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — scaly apricot</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 39</span>
+
+                        <span class="price__item">$ 27</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-scaly-apricot"
+                data-item-name="t-shirts — scaly apricot"
+                data-item-price='{"cad":35,"usd":27,"eur":24}'
+                data-item-url="https://yelvy.com/products/scaly-apricot/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-2.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-2.jpg" alt="scaly apricot">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/badeaux/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">t-shirts — badeaux</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 39</span>
+
+                        <span class="price__item">$ 23</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--variations">
+    		                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-3"
+                data-item-name="t-shirts — badeaux"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/badeaux/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="small"
+    			data-item-taxable="true">
+                    s                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-3"
+                data-item-name="t-shirts — badeaux"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/badeaux/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="medium"
+    			data-item-taxable="true">
+                    m                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-3"
+                data-item-name="t-shirts — badeaux"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/badeaux/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="large"
+    			data-item-taxable="true">
+                    l                </button>
+                            <button
+                class="add-to-cart__button snipcart-add-item"
+                data-item-id="t-shirt-3"
+                data-item-name="t-shirts — badeaux"
+                data-item-price='{"cad":30,"usd":23,"eur":21}'
+                data-item-url="https://yelvy.com/products/badeaux/"
+                data-item-image="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-3.jpg"
+                data-item-custom1-name="Size"
+                data-item-custom1-options="small|medium|large|x-large"
+                data-item-custom1-value="x-large"
+    			data-item-taxable="true">
+                    xl                </button>
+            
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/thumbnail-t-shirt-3.jpg" alt="badeaux">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/grand-prix-grafika/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">accessories — grand prix grafika</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item">$ 7790</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--no-variations">
+            <button
+            class="add-to-cart__button snipcart-add-item"
+            data-item-id="grand-prix-grafika"
+            data-item-name="accessories — grand prix grafika"
+            data-item-price='{"cad":10000,"usd":7790,"eur":6887}'
+            data-item-url="https://yelvy.com/products/grand-prix-grafika/"
+            data-item-image="https://yelvy.com/app/uploads/2019/02/grafika-thumbnail.jpg"
+    		data-item-taxable="true">
+            </button>
+
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2019/02/grafika-thumbnail.jpg" alt="grand prix grafika">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/happy-backpack/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">accessories — happy backpack</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                                    <span class="price__item">sold out</span>
+                            </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+            
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/thumbnail-compressor-1.jpg" alt="happy backpack">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/perspective-cap/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">hats — perspective cap</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 35</span>
+
+                        <span class="price__item">$ 16</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--no-variations">
+            <button
+            class="add-to-cart__button snipcart-add-item"
+            data-item-id="cap-2"
+            data-item-name="hats — perspective cap"
+            data-item-price='{"cad":20,"usd":16,"eur":14}'
+            data-item-url="https://yelvy.com/products/perspective-cap/"
+            data-item-image="https://yelvy.com/app/uploads/2017/09/cap-2-thumbnail.jpg"
+    		data-item-taxable="true">
+            </button>
+
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/09/cap-2-thumbnail.jpg" alt="perspective cap">
+                            </figure>
+                        </li>
+                                            <li class="shop__item js-scroll js-stack-scroll">
+                            <figure class="home-product__img">
+                                <div class="product-hover product-hover__wrapper js-product-hover">
+    <a href="https://yelvy.com/products/classic-cap/" class="product-hover__link" draggable="false"></a>
+
+    <div class="product-hover__container">
+        <h2 class="product-hover__title">hats — classic cap</h2>
+
+        <div class="product-hover__info">
+            <p class="product-hover__price price">
+                     
+                                            <span class="price__item -sale">$ 35</span>
+
+                        <span class="price__item">$ 16</span>
+                                                </p>
+        </div>
+
+        <div class="product-hover__add-to-cart">
+                        <div class="add-to-cart add-to-cart--no-variations">
+            <button
+            class="add-to-cart__button snipcart-add-item"
+            data-item-id="cap-classic"
+            data-item-name="hats — classic cap"
+            data-item-price='{"cad":20,"usd":16,"eur":14}'
+            data-item-url="https://yelvy.com/products/classic-cap/"
+            data-item-image="https://yelvy.com/app/uploads/2017/07/thumbnail-cap-classic.jpg"
+    		data-item-taxable="true">
+            </button>
+
+            <svg class="bag" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 25.7 32.3" style="enable-background:new 0 0 25.7 32.3;" xml:space="preserve">
+	<path d="M19,7.4c-0.4-6-3.7-7.3-6.4-7.3c-2.8,0-6.1,1.3-6.4,7.3H0.3v24.8h25.1V7.4H19z M9.1,7.4C9.4,3.4,11,3,12.6,3
+	c1.5,0,3.2,0.4,3.5,4.4H9.1z M3.3,29.3V10.4h19.2v18.9H3.3z"/>
+</svg>
+            <span class="add-to-cart__bg"></span>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="product-hover__background"></div>
+    <div class="product-hover__shadow"></div>
+</div>
+                                <img class="js-stack-image" src="https://yelvy.com/app/uploads/2017/07/thumbnail-cap-classic.jpg" alt="classic cap">
+                            </figure>
+                        </li>
+                                    </ul>
+			</div>
+
+            <div class="info-shipping">
+    <h3 class="info-shipping__title">
+        shipping <svg class="info-shipping__world" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="23.3px" height="23.3px" viewBox="0 0 23.3 23.3" style="enable-background:new 0 0 23.3 23.3;" xml:space="preserve">
+	<path d="M11.7,23.3L11.7,23.3L11.7,23.3L11.7,23.3C5.2,23.3,0,18.1,0,11.7l0,0l0,0l0,0C0,5.2,5.2,0,11.7,0l0,0l0,0l0,0
+		c6.4,0,11.6,5.2,11.6,11.6c0,0,0,0,0,0s0,0,0,0C23.3,18.1,18.1,23.3,11.7,23.3z M14.8,16.2c-1,0.1-2.1,0.2-3.1,0.2
+		s-2.1-0.1-3.1-0.2c0.6,3.6,1.9,5.9,3.1,5.9l0,0C12.8,22.1,14.1,19.8,14.8,16.2z M14.9,14.9c0.1-1,0.2-2.1,0.2-3.3S15,9.4,14.9,8.4
+		c-1-0.1-2.1-0.2-3.3-0.2c-1.2,0-2.3,0.1-3.3,0.2c-0.1,1-0.2,2.1-0.2,3.3s0.1,2.3,0.2,3.3c1,0.1,2.1,0.2,3.3,0.2
+		C12.8,15.1,13.9,15,14.9,14.9z M1.2,11.7c0,1.2,2.3,2.5,5.9,3.1C7,13.7,7,12.7,7,11.7S7,9.6,7.1,8.5C3.5,9.2,1.2,10.5,1.2,11.7
+		L1.2,11.7z M8.6,7.1c1-0.1,2.1-0.2,3.1-0.2c1,0,2.1,0.1,3.1,0.2c-0.6-3.6-1.9-5.9-3.1-5.9l0,0C10.5,1.2,9.2,3.5,8.6,7.1z
+		 M16.3,11.7c0,1-0.1,2.1-0.2,3.1c3.6-0.6,5.9-1.9,5.9-3.1c0,0,0,0,0,0c0,0,0,0,0,0c0-1.2-2.3-2.5-5.9-3.1
+		C16.3,9.6,16.3,10.6,16.3,11.7z M14.1,1.5c0.9,1.3,1.6,3.4,2,5.8c2.3,0.4,4.4,1,5.8,2C20.9,5.4,17.9,2.4,14.1,1.5z M1.5,9.2
+		c1.3-0.9,3.4-1.6,5.8-2c0.4-2.3,1-4.4,2-5.8C5.4,2.4,2.4,5.4,1.5,9.2z M9.2,21.8c-0.9-1.3-1.6-3.4-2-5.8c-2.3-0.4-4.4-1-5.8-2
+		C2.4,17.9,5.4,20.9,9.2,21.8z M21.8,14.1c-1.3,0.9-3.4,1.6-5.8,2c-0.4,2.3-1,4.4-2,5.8C17.9,20.9,20.9,17.9,21.8,14.1z"/>
+</svg>
+ worldwide <br>
+        free shipping on all canadian <svg class="info-shipping__canadians" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="20px" height="20px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+	<path d="M11.3,20H8.7v-3.8L4,16.6l1-2l-5-3.7l1.5-0.9L0.2,6.3l3.1,0.8l1.1-1.5L6.8,8L5.3,2.2l2.6,1.5L10,0L12,3.8l2.7-1.5L13.1,8
+		l2.5-2.4l1.1,1.5l3.1-0.8l-1.4,3.8l1.6,0.9l-5,3.7l1.1,2l-4.7-0.4V20z M9.6,19h0.7v-3.9l4,0.4l-0.6-1.1l4.5-3.3l-1-0.5l1.1-2.9
+		l-2,0.5L15.5,7l-4.2,4.2l2-7L11.7,5L10,2L8.3,5.1L6.8,4.2l1.9,6.9L4.5,7L3.7,8.1l-2-0.5l1.1,2.9l-1,0.5l4.5,3.3l-0.6,1.1l4-0.4V19z
+		"/>
+</svg>
+ orders over $200 cad
+    </h3>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="stack-scroll-canvas js-sticky-element"></div>
+
+
+					
+					<footer class="site-footer" id="footer">
+    <div>
+        <div class="site-footer_nav-wrap">
+            <div class="site-footer__nav-tools">
+                <nav class="nav-tools">
+    <ul class="nav-tools__list">
+        <li class="nav-tools__item">
+            currency
+        </li>
+        <li class="nav-tools__item">
+            <select class="currency-select js-currency-toggle">
+                <option value="cad" >cad</option>
+                <option value="usd" selected>usd</option>
+                <option value="eur" >eur</option>
+            </select>
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="7.7px" height="4.3px" viewBox="0 0 7.7 4.3" enable-background="new 0 0 7.7 4.3" xml:space="preserve">
+<path fill="#999999" d="M7.1,0.1C6.7,0.5,3.9,3.2,3.9,3.2S1,0.5,0.6,0.1S0,0.7,0,0.7l3.9,3.6l3.8-3.6C7.7,0.7,7.5-0.3,7.1,0.1z"/>
+</svg>
+        </li>
+    </ul>
+</nav>
+            </div>
+            <div class="grid__wrapper">
+                <div class="grid__container grid__container__main">
+                    <div class="grid__item grid__item__left">
+                        <a href="mailto:info@yelvy.com" class="site-footer__email" target="_blank">
+                            info@yelvy.com
+                        </a>
+                    </div>
+
+                    <div class="grid__item grid__item__right">
+                        <div class="grid__container">
+                            <div class="grid__item grid__item__two-thirds">
+                                <nav class="site-main__nav site-nav"><ul id="menu-main_menu-1" class="site-main__nav__list">
+<li class='site-main__nav__item'><a href='https://yelvy.com/'>Home</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/featured/sale/'>sale</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/featured/new-arrivals/'>new arrivals</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/products/'>All Products</a></li>
+</li>
+
+<li class='site-main__nav__item'><a href='https://yelvy.com/about/'>about</a></li>
+</li>
+</ul></nav>                            </div>
+
+                            <div class="grid__item grid__item__third">
+                                <div class="site-footer__nav-second">
+                                    <a href="#" class="site-footer__nav-second__checkout snipcart-checkout js-cart js-snip-btn">checkout</a>
+                                    <nav class="site-second__nav site-nav"><ul id="menu-second_menu-1" class="site-second__nav__list">
+<li class='site-second_nav__item'><a href='https://yelvy.com/contact/'>contact</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/terms/'>terms</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/faq/'>faq</a></li>
+</li>
+
+<li class='site-second_nav__item'><a href='https://yelvy.com/shipping-returns/'>shipping/returns</a></li>
+</li>
+</ul></nav>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid__wrapper">
+    <div class="grid__container grid__container__main">
+        <div class="grid__item grid__item__left">
+            <div class="newsletter">
+                <p>
+                    <span>newsletter</span>
+                </p>
+                <div class="newsletter-wrap">
+                    <svg class="newsletter__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="62.7px" height="35.2px" viewBox="-361.8 587.6 62.7 35.2" style="enable-background:new -361.8 587.6 62.7 35.2;"
+	xml:space="preserve">
+	<path d="M-361.8,587.6v35h62.7v-35H-361.8z M-330.5,607.6l-29.1-19h58.3L-330.5,607.6z M-337.3,604.4l-23.6,16.7V589L-337.3,604.4z
+		M-336.4,605l5.8,3.8l5.9-3.8l23.4,16.6h-58.5L-336.4,605z M-323.8,604.4l23.6-15.3v32.1L-323.8,604.4z"/>
+</svg>
+
+                    <div id="mc_embed_signup">
+                        <form action="//yelvy.us16.list-manage.com/subscribe/post?u=b5035a645eb6689ee6abcdf50&amp;id=203669ddbe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter__form validate" target="_blank" novalidate>
+
+                            <div class="newsletter__form__wrap">
+                                <input type="email" class="newsletter__form__input required email" required name="EMAIL" id="mce-EMAIL" placeholder="email address">
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b5035a645eb6689ee6abcdf50_203669ddbe" tabindex="-1" value=""></div>
+                                <button class="newsletter__form__button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                    <svg class="arrow-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.5 32" style="enable-background:new 0 0 25.5 32;" xml:space="preserve"> <path class="st0" d="M25.5,16L0,32V0L25.5,16z"/></svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="newsletter__form__shadow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid__item grid__item__right grid__align--bottom">
+            <div class="grid__container">
+                <div class="grid__item grid__item__two-thirds grid__align--bottom site-footer__copyright__row">
+                    <p class="site-footer__copyright">
+                        <span>all rights reserved 2022 &copy; yelvy</span><span class="site-footer__copyright__credit"><a href="https://yelvy.com/credits/" class="site-footer__copyright__credit__link">credits</a></span>
+                    </p>
+                </div>
+                <div class="grid__item grid__item__third grid__align--bottom">
+                    <div class="social">
+    <ul class="social__list">
+        <li class="social__item">
+            <a href="https://www.facebook.com/yelvyyy/" class="social__link social__link__facebook" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="11.5px" height="25px" viewBox="0 0 11.5 25" style="enable-background:new 0 0 11.5 25;" xml:space="preserve">
+	<path d="M2.6,25h5V12.4h3.5l0.4-4.2H7.7c0,0,0-1.6,0-2.4c0-1,0.2-1.4,1.2-1.4c0.8,0,2.7,0,2.7,0V0c0,0-2.9,0-3.5,0
+	C4.3,0,2.6,1.6,2.6,4.8c0,2.8,0,3.4,0,3.4H0v4.3h2.6V25z"/>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://twitter.com/yelvyyy" class="social__link social__link__twitter" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="24px" height="25px" viewBox="0 0 24 25" style="enable-background:new 0 0 24 25;" xml:space="preserve">
+    <path d="M0,20.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14.3-7.7,14-14.6c1-0.7,1.8-1.6,2.5-2.5c-0.9,0.4-1.8,0.7-2.8,0.8
+    	c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6c-3.2,0-5.5,3-4.8,6C7.7,8.6,4.1,6.7,1.7,3.7
+    	C0.4,5.9,1,8.8,3.2,10.3C2.4,10.2,1.6,10,1,9.6c-0.1,2.3,1.6,4.4,3.9,4.9c-0.7,0.2-1.5,0.2-2.2,0.1c0.6,2,2.4,3.4,4.6,3.4
+    	C5.2,19.7,2.6,20.4,0,20.1z"/>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://www.youtube.com/channel/UCTWiFNUCUF9k-t4CiLLCNvA" class="social__link social__link__youtube" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="22.3px" viewBox="0 0 32 22.3" style="enable-background:new 0 0 32 22.3;" xml:space="preserve">
+<g>
+	<path d="M31.4,3.6c-0.4-1.7-1.8-3-3.5-3.1C24,0,20,0,16,0C12,0,8,0,4,0.4C2.3,0.6,1,1.9,0.6,3.6C0,6,0,8.7,0,11.2s0,5.1,0.6,7.6
+		c0.4,1.7,1.8,3,3.5,3.1c4,0.4,8,0.4,12,0.4c4,0,8,0,12-0.4c1.7-0.2,3.1-1.4,3.5-3.1c0.6-2.4,0.6-5.1,0.6-7.6C32,8.7,32,6,31.4,3.6z
+		 M11.9,16.1c0-3.5,0-7,0-10.6c3.4,1.8,6.8,3.5,10.2,5.3C18.6,12.6,15.3,14.4,11.9,16.1z"/>
+</g>
+</svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="https://www.instagram.com/yelvy/" class="social__link social__link__instagram" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="23px" height="25px" viewBox="0 0 23 25" style="enable-background:new 0 0 23 25;" xml:space="preserve">
+	<path d="M11.5,3.1c3.1,0,3.4,0,4.6,0.1c1.1,0.1,1.7,0.2,2.1,0.4c0.5,0.2,0.9,0.5,1.3,0.9c0.4,0.4,0.7,0.8,0.9,1.3
+		c0.2,0.4,0.3,1,0.4,2.1c0.1,1.2,0.1,1.6,0.1,4.6c0,3.1,0,3.4-0.1,4.6c-0.1,1.1-0.2,1.7-0.4,2.1c-0.2,0.5-0.5,0.9-0.9,1.3
+		c-0.4,0.4-0.8,0.7-1.3,0.9c-0.4,0.2-1,0.3-2.1,0.4c-1.2,0.1-1.6,0.1-4.6,0.1c-3.1,0-3.4,0-4.6-0.1c-1.1-0.1-1.7-0.2-2.1-0.4
+		c-0.5-0.2-0.9-0.5-1.3-0.9c-0.4-0.4-0.7-0.8-0.9-1.3c-0.2-0.4-0.3-1-0.4-2.1c-0.1-1.2-0.1-1.6-0.1-4.6c0-3.1,0-3.4,0.1-4.6
+		c0.1-1.1,0.2-1.7,0.4-2.1C2.7,5.2,3,4.8,3.4,4.4C3.8,4,4.2,3.7,4.7,3.5c0.4-0.2,1-0.3,2.1-0.4C8.1,3.1,8.4,3.1,11.5,3.1 M11.5,1
+		C8.4,1,8,1,6.8,1.1C5.5,1.1,4.7,1.3,4,1.6c-0.8,0.3-1.4,0.7-2,1.3c-0.6,0.6-1,1.3-1.3,2C0.3,5.7,0.1,6.5,0.1,7.8C0,9,0,9.4,0,12.5
+		c0,3.1,0,3.5,0.1,4.7c0.1,1.2,0.3,2.1,0.5,2.8c0.3,0.8,0.7,1.4,1.3,2c0.6,0.6,1.3,1,2,1.3c0.7,0.3,1.6,0.5,2.8,0.5
+		C8,24,8.4,24,11.5,24c3.1,0,3.5,0,4.7-0.1c1.2-0.1,2.1-0.3,2.8-0.5c0.8-0.3,1.4-0.7,2-1.3c0.6-0.6,1-1.3,1.3-2
+		c0.3-0.7,0.5-1.6,0.5-2.8C23,16,23,15.6,23,12.5c0-3.1,0-3.5-0.1-4.7c-0.1-1.2-0.3-2.1-0.5-2.8c-0.3-0.8-0.7-1.4-1.3-2
+		c-0.6-0.6-1.3-1-2-1.3c-0.7-0.3-1.6-0.5-2.8-0.5C15,1,14.6,1,11.5,1"/>
+	<path d="M11.5,6.6c-3.3,0-5.9,2.6-5.9,5.9c0,3.3,2.6,5.9,5.9,5.9s5.9-2.6,5.9-5.9C17.4,9.2,14.8,6.6,11.5,6.6 M11.5,16.3
+		c-2.1,0-3.8-1.7-3.8-3.8s1.7-3.8,3.8-3.8s3.8,1.7,3.8,3.8S13.6,16.3,11.5,16.3"/>
+	<path d="M19,6.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4C18.4,5,19,5.6,19,6.4"/>
+</svg>
+            </a>
+        </li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</footer>
+				</section>
+			</main>			
+
+		</div> 
+		<div class="cart__bg--primary"></div>
+		<div class="cart__bg--secondary"></div>
+
+		<div class="transition-default transition-default__wrapper">
+	<div class="transition-default__container">
+		<div class="logo__wrapper js-sticky-element">
+    <div class="logo__container logo__dynamic">
+        <a href="/" class="logo__link"></a>
+
+        <span class="logo__y logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M4.6,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.6,41.5H26l25.3,67.8L77,41.5h20.8l-42.5,106c-2.2,5.4-4.4,10-6.7,13.8s-4.8,6.9-7.6,9.3
+                c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.6,157.5z"/>
+            </svg>
+        </span>
+
+        <span class="logo__e logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 177.6" style="enable-background:new 0 0 108 177.6;" xml:space="preserve">
+                <path d="M20.9,95.4c0.1,4.9,0.6,9.3,1.5,13.1c1,3.8,2.5,6.9,4.6,9.5c2.1,2.5,4.7,4.5,8,5.8s7.3,2,12.2,2c4.5,0,8.5-0.8,12-2.3
+                s6.7-4.1,9.6-7.8l15.5,10.5c-1.9,2.8-4,5.3-6.3,7.4c-2.3,2.1-5,3.9-8.1,5.4c-3.1,1.4-6.6,2.5-10.5,3.3s-8.4,1.1-13.4,1.1
+                c-15.7,0-27.3-4.3-34.8-13S0,108.9,0,92c0-7.9,0.8-15.2,2.4-21.6c1.6-6.5,4.2-12,7.7-16.7c3.5-4.6,8.2-8.2,13.9-10.8
+                c5.7-2.5,12.7-3.8,20.9-3.8c7.3,0,13.6,1.1,18.7,3.3c5.2,2.2,9.4,5.3,12.6,9.3c3.3,4,5.6,8.8,7.1,14.5c1.5,5.6,2.3,11.9,2.3,18.7
+                v10.6L20.9,95.4L20.9,95.4z M65.6,80.6c0-8.2-1.7-14.4-5.2-18.7c-3.4-4.3-8.9-6.4-16.2-6.4c-3.8,0-7,0.5-9.6,1.6
+                c-2.7,1.1-4.9,2.7-6.7,4.8s-3.2,4.8-4.3,7.9s-1.9,6.7-2.4,10.8H65.6z"/>
+            </svg>
+        </span>
+
+        <span class="logo__l logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 39 177.6" style="enable-background:new 0 0 39 177.6;" xml:space="preserve">
+                <path d="M0,140.4V0h20.3v140.4H0z"/>
+            </svg>
+        </span>
+
+        <span class="logo__v logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 95.7 177.6" style="enable-background:new 0 0 95.7 177.6;" xml:space="preserve">
+                <path d="M54.2,140.4H35L0.2,41.5h21L45.1,113l23.6-71.5h20.6L54.2,140.4z"/>
+            </svg>
+        </span>
+
+        <span class="logo__ytm logo__letter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 135.3 177.6" style="enable-background:new 0 0 135.3 177.6;" xml:space="preserve">
+                <path d="M4.8,157.5c2.2,0.9,4.5,1.6,7,2c2.5,0.5,4.9,0.7,7.2,0.7c1.9,0,3.7-0.3,5.3-1c1.7-0.7,3.3-1.7,4.8-3.2s3-3.4,4.4-5.8
+                c1.4-2.4,2.8-5.3,4.2-8.8l2.9-7.1L4.7,41.4h21.4l25.3,67.8l25.7-67.8h20.8L55.4,147.5c-2.2,5.4-4.4,10-6.7,13.8
+                c-2.3,3.8-4.8,6.9-7.6,9.3c-2.8,2.4-6,4.2-9.5,5.3s-7.6,1.7-12.2,1.7c-3.1,0-6.4-0.3-9.9-0.8s-6.6-1.2-9.4-2.1L4.8,157.5z"/>
+                <g>
+                    <path d="M119.6,44.4v8.9h-2.3v-8.9h-3.4v-2.1h9v2.1H119.6z"/>
+                    <path d="M133.1,53.3v-7.4l-2.6,4.6h-1.3l-2.6-4.6v7.4h-2.2v-11h2.6l2.9,5.2l2.9-5.2h2.5v11H133.1z"/>
+                </g>
+            </svg>
+        </span>
+    </div>
+</div>
+	</div>
+    <div class="transition-default__background"></div>
+</div>
+
+		<script src="https://yelvy.com/app/themes/yelvy/assets/bin/vendors/vendors.min.js"></script>
+		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YTk0MjdmMWQtOTdiZC00NzlmLWIyMjgtMGJlZGE0NjYxY2QzNjM2NDgxMjUwNDU5NTcxNzI4" id="snipcart"></script>
+		<script src="https://yelvy.com/app/themes/yelvy/assets/en.js"></script>
+		<script src="https://yelvy.com/app/themes/yelvy/assets/bin/min.js"></script>		
+	</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: yelvy.com @ 2022-11-29 10:43:25 by W3 Total Cache
+-->
